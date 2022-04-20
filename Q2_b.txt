@@ -1,0 +1,26 @@
+                                 OLS Regression Results                                
+=======================================================================================
+Dep. Variable:              SalePrice   R-squared (uncentered):                   0.930
+Model:                            OLS   Adj. R-squared (uncentered):              0.930
+Method:                 Least Squares   F-statistic:                              3448.
+Date:                Tue, 19 Apr 2022   Prob (F-statistic):                   1.90e-300
+Time:                        19:56:43   Log-Likelihood:                         -3034.6
+No. Observations:                 521   AIC:                                      6073.
+Df Residuals:                     519   BIC:                                      6082.
+Df Model:                           2                                                  
+Covariance Type:            nonrobust                                                  
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Size         126.1095      1.528     82.526      0.000     123.107     129.112
+Highway      -18.0416     24.925     -0.724      0.469     -67.008      30.925
+==============================================================================
+Omnibus:                      210.769   Durbin-Watson:                   0.951
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              810.744
+Skew:                           1.855   Prob(JB):                    8.89e-177
+Kurtosis:                       7.856   Cond. No.                         16.4
+==============================================================================
+
+Notes:
+[1] R² is computed without centering (uncentered) since the model does not contain a constant.
+[2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
