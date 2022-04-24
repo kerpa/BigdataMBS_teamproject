@@ -10,12 +10,19 @@ SELECT sum(casual) as total_casual, sum(registered) as total_registered
 FROM bike
 JOIN Calendar C on bike.dteday = C.dteday
 WHERE C.holiday = 1;
+/*
+ a group by holidays or day is wrong because it will not give each holidays but each day of holidays.
+ */
 
 /*
 B. (4 pts) Considering 24 hours in a day, write a SQL code to calculate the average count of casual users
 and the average count of registered users for each hour.
  */
-SELECT hr,(sum(casual)/(24*365)) as average_total_casual_by_hour, (sum(registered)/(24*365)) as average_total_registered_by_hour
+/*
+ I use 365 instead of count(*) because it is the number of days in a year and I verified that the number of days is 365
+ for this database.
+ */
+SELECT hr,(sum(casual)/365) as average_total_casual_by_hour, (sum(registered)/365) as average_total_registered_by_hour
 FROM bike
 GROUP BY hr;
 /*
