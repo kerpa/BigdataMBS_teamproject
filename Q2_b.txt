@@ -4,7 +4,7 @@ Dep. Variable:              SalePrice   R-squared (uncentered):                 
 Model:                            OLS   Adj. R-squared (uncentered):              0.930
 Method:                 Least Squares   F-statistic:                              3448.
 Date:                Mon, 25 Apr 2022   Prob (F-statistic):                   1.90e-300
-Time:                        09:57:18   Log-Likelihood:                         -3034.6
+Time:                        11:49:02   Log-Likelihood:                         -3034.6
 No. Observations:                 521   AIC:                                      6073.
 Df Residuals:                     519   BIC:                                      6082.
 Df Model:                           2                                                  
