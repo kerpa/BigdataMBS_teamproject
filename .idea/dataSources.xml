@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Sharing_Bike" uuid="4e89a161-9d7d-4fe0-afbf-477959c297e9">
+    <data-source source="LOCAL" name="Sharing_Bike" uuid="e095570a-305e-483e-a1c1-a3513275e917">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\jeanc\PycharmProjects\TeamProjectBigData\dataset\Sharing_Bike.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/dataset/Sharing_Bike.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
